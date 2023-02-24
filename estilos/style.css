@@ -1,8 +1,10 @@
 @charset "UTF-8";
 
 :root {
-    --cor1: #0a98bf;
-    --cor2: #5e00b0;
+    --cor1: #0ABF9E;
+    --cor2: #9B00B3;
+    --cor3: #078C74;
+    --cor4: #47CAB2;
 }
 
 * {
@@ -59,4 +61,56 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: 0.8em;
+}
+
+form > div.campo {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: var(--cor2);
+    border-radius: 8px;
+    margin: 5px 0px;
+}
+
+form > div.campo > label {
+    display: none;
+}
+
+form > input[type=submit] {
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    color: #ffffff;
+    background-color: var(--cor1);
+    font-size: 1em;
+    border: none;
+    border-radius: 8px;
+}
+
+form > input[type=submit]:hover {
+    background-color: var(--cor3);
+}
+
+form > a.botao {
+    display: block;
+    width: 100%;
+    height: 40px;
+    color: var(--cor3);
+    background-color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    padding-top: 7px;
+    border: 1px solid var(--cor1);
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+form > a.botao:hover {
+    background-color: var(--cor4);
+}
+
+form > a.botao > span {
+    font-size: 1em;
 }
