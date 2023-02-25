@@ -24,7 +24,7 @@ main {
     position: fixed; /* relative */
     width: 100vw;
     height: 100vh;
-    
+
 }
 
 section#login {
@@ -81,7 +81,6 @@ form > div.campo > label {
 form > div.campo > span {
     width: 40px;
     color: #ffffff;
-    /* background-color: black; */
     font-size: 2em;
     padding: 5px;
 }
@@ -94,7 +93,7 @@ form > div.campo > input {
     padding: 4px;
     border: none;
     border-radius: 8px;
-    transform: translateY(-12px);
+    transform: translateY(-12.3px);
 }
 
 form > div.campo > input:focus-within {
